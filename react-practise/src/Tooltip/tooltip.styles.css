@@ -1,0 +1,28 @@
+.tooltip-container{
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 10px;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}
+
+.tooltip{
+    position: absolute;
+    z-index: 1;
+    top:calc(-50%,50px);
+    transform: translateY(-100%);
+    min-width: 250px;
+    background-color: black;
+    color: azure;
+    text-align: center;
+    transition-delay: 30s;
+}
+
+.text-tooltip{
+    text-align: center;
+    justify-content: center;
+    font-size: small;
+}

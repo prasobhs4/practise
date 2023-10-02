@@ -1,0 +1,38 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .carousal-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .carousal-item {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1)
+  }
+  
+  .button {
+    cursor: pointer;
+    height:20px;
+   border-radius: 25px;
+   align-items: center;
+   justify-content: center;
+   margin-top: 40px;
+  }
+  
+  .img-container {
+    height: 300px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+  }
+
+  .container{
+    border:1px solid;
+    max-width: 100px;
+    margin: auto;
+    height:100px
+  }
+  
